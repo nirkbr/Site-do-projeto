@@ -4,8 +4,7 @@
 
 }
 
-body{
-    text-align: center;
+.corpo{
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,9 +12,10 @@ body{
     width: 100vw;
 }
 
-a:visited,a{
-    color: rgba(71, 3, 160, 0.774);
+.Menu{
+  color: #ffffff;
 }
+
 figure{
   width: 100%;
 }
@@ -25,27 +25,28 @@ figcaption{
     font-style: oblique;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  z-index: 1;
-  margin: auto;
+.Navbar{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  color: white;
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 1s;
+.Navbar_Itens{
+  display: flex;
 }
 
-.topnav a:hover {
-  background-color: #527b9f;
-  
+.Navbar_Link{
+  padding-right: 8px;
+}
+
+.Navbar_Items--right{
+  margin-left: auto;
+}
+
+.Navbar_Link-toggle{
+  display: none;
 }
 
 .material-symbols-outlined {
@@ -77,13 +78,14 @@ section{
 }
 
 .Conteudo{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ffffff; 
     border-radius: 30px;
+    text-align: center;
 }
 
 .Grafico{
@@ -98,7 +100,9 @@ width: 70%;
     font-family: 'Muli',sans-serif;
     font-size: 18px;
     color: rgb(83, 83, 83);
-    width: 100%;
+    width: 90%;
+    margin-left: 30px;
+    text-align:justify;
 }
 
 

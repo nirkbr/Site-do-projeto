@@ -3,28 +3,28 @@
     padding:0;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #333;
+.Navbar_Itens,
+.Navbar {
+  flex-direction: column;
 }
-.topnav a{
-    transition: 1s;
+.Navbar_Itens{
+    display: none;
+}
+.Navbar_Items--right {
+  margin-left: 0;
 }
 
-.topnav a:hover {
-    background-color: #0c7939;
+.Navbar_Link-toggle{
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
 }
 
-
-    
-body{
-    text-align: center;
+.Navbar__ToggleShow {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #ffffff;
-    width: 100vw;
-}
+  }
+   
 
 .Imagens{
     display: flex;
