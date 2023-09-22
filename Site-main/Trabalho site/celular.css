@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.Navbar_Itens,
+.Navbar {
+  flex-direction: column;
+}
+.Navbar_Itens{
+    display: none;
+}
+.Navbar_Items--right {
+  margin-left: 0;
+}
+
+.Navbar_Link-toggle{
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+}
+
+.Navbar__ToggleShow {
+    display: flex;
+  }
+   
+
+.Imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.NossosComponentes{
+    display: flex;
+    flex-direction: column;
+    width: 339px;
+}
