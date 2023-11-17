@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 .material-symbols-sharp {
@@ -32,6 +32,10 @@
  display: flex;
  justify-content: space-between;
 }
+.Logo{
+  font: 20px;
+  font-family: 'Muli',sans-serif;
+}
 
 .corpo{
     display: flex;
@@ -43,11 +47,11 @@ body{
 }
 
 .Menu{
-  color: #98A2A9;
+  color: rgb(222, 220, 223);
 }
 .Menu:hover{
   transition: 1s;
-  color: aqua;
+  color: rgb(245, 248, 248);
 }
 
 figure{
@@ -63,19 +67,21 @@ figcaption{
   display: flex;
   padding: 16px;
   font-family: sans-serif;
-  color: rgb(56, 54, 54);
+  color:rgb(28, 78, 121);
   position: absolute;
   right: 5px;
 }
 
 .Navbar_Itens{
   display: flex;
-  background-color: #47525A;
+  background-color: rgb(75, 75, 78);
+  margin-right: 28px;
+  margin-top: 19px;
 }
 
 .Navbar_Link{
   padding-right: 16px;
-  margin-top: 18px;
+  padding-top: 18px;
   padding-left: 16px;
   padding-bottom: 16px;
 }
@@ -83,8 +89,8 @@ figcaption{
   text-decoration: none;
 }
 .Navbar_Link:hover{
-  transition: 2ms;
-  color:#37424b;
+  transition: 1s;
+  background-color: #1b4366;
 }
 
 .Navbar_Items--right{

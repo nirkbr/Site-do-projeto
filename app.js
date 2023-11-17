@@ -45,3 +45,6 @@ function classToggle() {
 
 document.querySelector('.Navbar_Link-toggle')
   .addEventListener('click', classToggle);
+
+const menu = document.querySelectorAll('.Navbar_Link');
+menu.forEach(item=> item.addEventListener('click', classToggle))
