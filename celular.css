@@ -74,3 +74,10 @@ video{
   width: 70%;
   height: 50%;
 }
+
+#ancora{
+  width: 70px;
+  height: 70px;
+  border-radius: 60%;
+  font-size: 15px;
+}

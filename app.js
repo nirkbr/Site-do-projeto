@@ -48,3 +48,11 @@ document.querySelector('.Navbar_Link-toggle')
 
 const menu = document.querySelectorAll('.Navbar_Link');
 menu.forEach(item=> item.addEventListener('click', classToggle))
+
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0, 
+    behavior: 'smooth'
+  })
+}
