@@ -154,6 +154,21 @@ section{
     text-align: center;
 }
 
+.Imagens-fora-carrossel{
+  width: 70%;
+}
+
+.Imagens-fora-carrossel{
+  width: 70%;
+}
+
+.Sensores-Img{
+  width: 80%;
+}
+
+.chuvas-img{
+  width: 70%;
+}
 
 .Img-Carrosel{
   width: 90%;
@@ -210,6 +225,7 @@ width: 10%;
   border-radius: 60%;
   font-size: 35px;
   cursor: pointer;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.434);
 }
 
 
