@@ -1,3 +1,4 @@
+//Carrosel
 function modulo(number, mod) {
   let result = number % mod;
   if (result < 0) {
@@ -37,6 +38,8 @@ class Carousel {
 const carousels = document.querySelectorAll('[data-carousel]');
 carousels.forEach(carousel => new Carousel(carousel));
 
+
+//Botão de voltar 
 function classToggle() {
   const navs = document.querySelectorAll('.Navbar_Itens')
   
