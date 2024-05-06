@@ -1,83 +1,110 @@
-*{
+@media (min-height: 412px) {
+
+  * {
     margin: 0;
-    padding:0;
-}
+    padding: 0;
+  }
 
-.Navbar_Itens,
-.Navbar {
-  flex-direction: column;
-}
-.Navbar_Itens{
+  .Conteudo {
+    width: 290px;
+  }
+
+  .Navbar_Itens,
+  .Navbar {
+    flex-direction: column;
+  }
+
+  .Navbar_Itens {
     display: none;
-}
-.Navbar_Items--right {
-  margin-left: 0;
-}
+  }
 
-.Navbar_Link-toggle{
+  .Navbar_Items--right {
+    margin-left: 0;
+  }
+
+  .Navbar_Link-toggle {
     align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;
-}
+  }
 
-.Navbar__ToggleShow {
+  .Navbar__ToggleShow {
     display: flex;
   }
 
-.Conteudo{
-  width: 80%;
-}
+  h1 {
+    font-size: 25px;
+  }
 
-.Titulos{
+  .Titulos {
     font-size: 20px;
     justify-content: center;
-}
+  }
 
-figure{
-  width: 105%;
-}
+  figure {
+    width: 105%;
+  }
 
-figcaption{
-font-size: 0.9em;
-width: 80%;
-}
+  figcaption {
+    font-size: 11px;
+    text-align: center;
+    padding-left: 39px;
+    width: 80%;
+  }
 
-.Img-Carrosel{
-  display: flex;
-  justify-content: center;
-  margin-left: 30px;
-  width: 80%;
-  align-items: center;
-}
+  .IPTI p {
+    font-size: 10px;
+    color: rgb(34, 33, 33);;
+    padding-right: 25px;
 
-.Imagens{
-  margin-left: 30px;
-  width: 80%;
-}
+  }
+
+  .ImagensGrafico-Fatalidades {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 13px;
+    width: 88%;
+  }
+
+  .Img-Carrosel {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    width: 80%;
+    align-items: center;
+  }
+
+  .Imagens {
+    margin-left: 30px;
+    width: 80%;
+  }
 
 
-.Textos{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-left: 15px;
-  font-size: 12px;
-}
+  .Textos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15px;
+    font-size: 12px;
+  }
 
-.Graficos{
-width: 180px;
-height: 60%;
-}
+  .Graficos {
+    width: 180px;
+    height: 60%;
+  }
 
-video{
-  width: 70%;
-  height: 50%;
-}
+  video {
+    width: 70%;
+    height: 50%;
+  }
 
-#ancora{
-  width: 70px;
-  height: 70px;
-  border-radius: 60%;
-  font-size: 15px;
+  #ancora {
+    width: 80px;
+    height: 60px;
+    border: solid 1px;
+    font-size: 15px;
+  }
+
 }

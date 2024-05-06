@@ -1,59 +1,59 @@
 .carousel {
-    --current-slide: 0;
-    /* we set position relative so absolute position works properly for the buttons */
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-  }
-  
+  --current-slide: 0;
+  /* we set position relative so absolute position works properly for the buttons */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-button {
+  /* vertically centering the buttons */
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+
+
+  /* basic styling */
+  padding: 0;
+  margin: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.1s;
+  z-index: 1;
+}
+
+.carousel-button:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-button_next {
+  /* The "next slide button" will be at the right */
+  right: 5%;
+
+}
+
+.carousel-button_previous {
+  left: 5%;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s;
+  transform: translateX(calc(-100% * var(--current-slide)));
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+@media screen and (max-width: 768px) {
   .carousel-button {
-    /* vertically centering the buttons */
-      position: absolute; 
-      top: 40%;
-      transform: translateY(-50%);
+    font-size: 2rem;
+    margin: 1rem;
+    top: 20%;
 
-  
-    /* basic styling */
-      padding: 0;
-      margin: 0.5rem;
-      border-radius: 50%;
-      border: none;
-      font-size: 1.5rem;
-      cursor: pointer;
-      transition: color 0.1s;
-      z-index: 1;
   }
-  
-  .carousel-button:hover {
-    color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .carousel-button_next {
-    /* The "next slide button" will be at the right */
-    right: 5%;
-  
-  }
-
-  .carousel-button_previous{
-    left: 5%;
-  }
-  
-  .slides {
-    display: flex;
-    transition: transform 0.5s;
-    transform: translateX(calc(-100% * var(--current-slide)));
-  }
-  
-  .slide {
-    flex: 0 0 100%;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .carousel-button {
-      font-size: 2rem;
-      margin: 1rem;
-      top: 20%;
-     
-    }
-  }
+}
